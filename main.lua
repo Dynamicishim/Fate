@@ -1,11 +1,11 @@
 -- Credits To The Devs @tezq_1, @liamisgolden
 getgenv().Config = {
 	Invite = "Fate Private",
-	Version = "0.0",
+	Version = "1.0.0",
 }
 
 getgenv().luaguardvars = {
-	DiscordName = "tezq_1",
+	DiscordName = "username#0000",
 }
 
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/drillygzzly/Other/main/1"))()
@@ -18,7 +18,7 @@ local Window = library.NewWindow({
 })
 
 local tabs = {
-    Tab1 = Window:AddTab("Tab1"),
+    FateShowcase = Window:AddTab("Fate Showcase"),
 	Settings = library:CreateSettingsTab(Window),
 }
 
@@ -26,8 +26,8 @@ local tabs = {
 -- 2 = Set Section Box To The Right
 
 local sections = {
-	Section1 = tabs.Tab1:AddSection("Section1", 1),
-	Section2 = tabs.Tab1:AddSection("Section2", 2),
+	Section1 = tabs.FateShowcase:AddSection("Section1", 1),
+	Section2 = tabs.FateShowcase:AddSection("Section2", 2),
 }
 
 sections.Section1:AddToggle({
