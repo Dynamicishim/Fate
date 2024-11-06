@@ -1,6 +1,6 @@
 # Fate
 
-#Supported Games
+# Supported Games
 
 Da Hood ✅
 Fisch ❌
